@@ -22,4 +22,7 @@ return {
         end, {remap=true})
         
     end,    
+    init = function()
+       require('default.plugins.config.hop-dot-repeat')
+    end,
 }
